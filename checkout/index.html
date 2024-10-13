@@ -189,209 +189,151 @@
     </div>
 
     
-<div class="container">
-  <main>
-    <div class="py-4 text-center">
-      <img class="d-block mx-auto mb-2" src="https://static.wixstatic.com/media/3f4c10_c52ff8b3a40a46309069f1e8a5e2e1f3~mv2.gif" alt="" width="100" height="120">
-      <h2>Кам'янський енергетичний фаховий коледж</h2>
-      <p class="lead text-center">Вступай до коледжу — стань фахівцем у своїй галузі!</p>
-    </div>
-
-        <div class="col-md-8"></div>
+    <div class="container">
+      <main>
+        <div class="py-4 text-center">
+          <img class="d-block mx-auto mb-2" src="https://static.wixstatic.com/media/3f4c10_c52ff8b3a40a46309069f1e8a5e2e1f3~mv2.gif" alt="" width="100" height="120">
+          <h2>Кам'янський енергетичний фаховий коледж</h2>
+          <p class="lead text-center">Вступай до коледжу — стань фахівцем у своїй галузі!</p>
+        </div>
+    
         <h4 class="mb-3">ПІБ вступника</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-4">
-              <input type="text" class="form-control" id="lastName" placeholder="Прізвище" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-              <div class="invalid-feedback">
-                Обов’язкове поле
-              </div>
+              <input type="text" class="form-control" id="lastName" placeholder="Прізвище" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+              <div class="invalid-feedback">Обов’язкове поле</div>
             </div>
-
             <div class="col-sm-4">
-              <input type="text" class="form-control" id="firstName" placeholder="Ім'я" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-              <div class="invalid-feedback">
-                Обов’язкове поле
-              </div>
+              <input type="text" class="form-control" id="firstName" placeholder="Ім'я" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+              <div class="invalid-feedback">Обов’язкове поле</div>
             </div>
-
             <div class="col-sm-4">
-              <input type="text" class="form-control" id="middleName" placeholder="По батькові" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-              <div class="invalid-feedback">
-                Обов’язкове поле
-              </div>
+              <input type="text" class="form-control" id="middleName" placeholder="По батькові" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+              <div class="invalid-feedback">Обов’язкове поле</div>
             </div>
-
-            <!-- <div class="col-12">
-              <label for="username" class="form-label">Username</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required>
-              <div class="invalid-feedback">
-                  Your username is required.
-                </div>
-              </div>
-            </div> -->
-            
+    
             <div class="col-12">
               <label for="phone" class="form-label">Мобільний телефон</label>
               <div class="input-group has-validation">
-                  <span class="input-group-text">+38</span>
-                  <input type="text" class="form-control" id="phoneUser" placeholder="Номер телефону" required maxlength="10" required pattern="\d+">
-                  <div class="invalid-feedback">
-                    
-                  </div>
+                <span class="input-group-text">+38</span>
+                <input type="text" class="form-control" id="phoneUser" placeholder="Номер телефону" required maxlength="10" pattern="\d+">
+                <div class="invalid-feedback"></div>
               </div>
-          </div>
-
-          <div class="col-12">
-            <label for="email" class="form-label">Електронна пошта</label>
-            <input type="text" class="form-control" id="email" placeholder="username@gmail.com" required>
-            <div class="invalid-feedback">
-                
             </div>
-        </div>
-
+    
+            <div class="col-12">
+              <label for="email" class="form-label">Електронна пошта</label>
+              <input type="text" class="form-control" id="email" placeholder="username@gmail.com" required>
+              <div class="invalid-feedback"></div>
+            </div>
+    
             <hr class="my-3">
             <div class="col-12">
               <h4 class="mb-3">Спеціальність</h4>
-                <select class="form-select" id="speciality" required>
-                    <option value="" disabled selected>Обери бажану спеціальність</option>
-                    <option>141 Електроенергетика, електротехніка та електромеханіка</option>
-                    <option>122 Комп'ютерні науки</option>
-                    <option>123 Комп'ютерна інженерія</option>
-                    <option>101 Екологія</option>
-                    <option>192 Будівництво та цивільна інженерія</option>
-                </select>
-                <div class="invalid-feedback">
-                  Обов’язкове поле
-                </div>
+              <select class="form-select" id="speciality" required>
+                <option value="" disabled selected>Обери бажану спеціальність</option>
+                <option>141 Електроенергетика, електротехніка та електромеханіка</option>
+                <option>122 Комп'ютерні науки</option>
+                <option>123 Комп'ютерна інженерія</option>
+                <option>101 Екологія</option>
+                <option>192 Будівництво та цивільна інженерія</option>
+              </select>
+              <div class="invalid-feedback">Обов’язкове поле</div>
             </div>
-
+    
             <hr class="my-3">
-            
-            
             <div class="col-12">
               <h4 class="mb-3">Додаткова інформація</h4>
-              <label for="dodatinform" class="form-label">Адреса проживання</label>
-              <form class="needs-validation" novalidate>
-              <div class="d-flex flex-nowrap mb-3">
+                <label for="dodatinform" class="form-label">Адреса проживання</label>
+                <div class="d-flex flex-nowrap mb-3">
                   <input type="text" class="form-control rounded-start me-3" id="street" placeholder="вул." required style="flex: 1;">
                   <div class="input-group has-validation" style="max-width: 120px;">
                     <span class="input-group-text">буд.</span>
-                  <input type="text" class="form-control rounded-end" id="house" placeholder="" required style="max-width: 80px;">
-                  <div class="invalid-feedback">  
-                    
+                    <input type="text" class="form-control rounded-end" id="house" placeholder="" required style="max-width: 80px;">
+                    <div class="invalid-feedback"></div>
                   </div>
-              </div>
-          </div>
-        
-          <div class="col-12 mb-3">
-            <label for="dodatinform" class="form-label">Заклад освіти <span class="text-body-secondary">(Назва)</span></label>
-            <form class="needs-validation" novalidate>
-              <div class="d-flex flex-nowrap">
-                <input type="text" class="form-control rounded-start me-3" id="school" placeholder="" required style="flex: 1;">
-                <div class="input-group has-validation" style="max-width: 120px;">
-                <span class="input-group-text">№</span>
-                <input type="text" class="form-control" id="schoolNumber" placeholder="" required style="max-width: 90px;">
-                <div class="invalid-feedback">
-                    
                 </div>
-            </div>
-        </div>
       
-          
-          <hr class="my-3">
-          <div class="col-12">
-            <h4 class="mb-3">Контакти батьків</h4>
-            <label for="pib" class="form-label">ПІБ матері</label>
-            <form class="needs-validation" novalidate>
-              <div class="row g-3">
-                <div class="col-sm-4">
-                  <input type="text" class="form-control" id="lastNameMother" placeholder="Прізвище" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-                  <div class="invalid-feedback">
-                    Обов’язкове поле
-                  </div>
-                </div>
-    
-                <div class="col-sm-4">
-                  <input type="text" class="form-control" id="firstNameMother" placeholder="Ім'я" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-                  <div class="invalid-feedback">
-                    Обов’язкове поле
-                  </div>
-                </div>
-    
-                <div class="col-sm-4">
-                  <input type="text" class="form-control" id="middleNameMother" placeholder="По батькові" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-                  <div class="invalid-feedback">
-                    Обов’язкове поле
-                  </div>
-                </div>
                 <div class="col-12">
-                  <label for="phone" class="form-label">Мобільний телефон матері</label>
-                  <div class="input-group has-validation">
-                      <span class="input-group-text">+38</span>
-                      <input type="text" class="form-control" id="phoneMother" placeholder="Номер телефону" required maxlength="10" required pattern="\d+">
-                      <div class="invalid-feedback">
-                         
-                      </div>
+                  <label for="dodatinform" class="form-label">Заклад освіти <span class="text-body-secondary">(Назва)</span></label>
+                  <div class="d-flex flex-nowrap">
+                    <input type="text" class="form-control rounded-start me-3" id="school" placeholder="" required style="flex: 1;">
+                    <div class="input-group has-validation" style="max-width: 120px;">
+                      <span class="input-group-text">№</span>
+                      <input type="text" class="form-control" id="schoolNumber" placeholder="" required style="max-width: 90px;" pattern="\d+">
+                      <div class="invalid-feedback"></div>
+                    </div>
                   </div>
+                </div>
               </div>
-            <div></div>
+            </div>
+
+              <hr class="my-3">
               <div class="col-12">
-              <label for="pib" class="form-label">ПІБ батька</label>
-              <form class="needs-validation" novalidate>
+                <h4 class="mb-3">Контакти батьків</h4>
+                <label for="pib" class="form-label">ПІБ матері</label>
                 <div class="row g-3">
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="lastNameFather" placeholder="Прізвище" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-                    <div class="invalid-feedback">
-                      Обов’язкове поле
+                    <input type="text" class="form-control" id="lastNameMother" placeholder="Прізвище" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+                    <div class="invalid-feedback">Обов’язкове поле</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="firstNameMother" placeholder="Ім'я" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+                    <div class="invalid-feedback">Обов’язкове поле</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="middleNameMother" placeholder="По батькові" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+                    <div class="invalid-feedback">Обов’язкове поле</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="phone" class="form-label">Мобільний телефон матері</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">+38</span>
+                      <input type="text" class="form-control" id="phoneMother" placeholder="Номер телефону" required maxlength="10" pattern="\d+">
+                      <div class="invalid-feedback"></div>
                     </div>
                   </div>
-      
+                </div>
+    
+                <label for="pib" class="form-label mt-4">ПІБ батька</label>
+                <div class="row g-3">
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="firstNameFather" placeholder="Ім'я" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-                    <div class="invalid-feedback">
-                      Обов’язкове поле
-                    </div>
+                    <input type="text" class="form-control" id="lastNameFather" placeholder="Прізвище" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+                    <div class="invalid-feedback">Обов’язкове поле</div>
                   </div>
-      
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="middleNameFather" placeholder="По батькові" value="" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
-                    <div class="invalid-feedback">
-                      Обов’язкове поле
-                    </div>
+                    <input type="text" class="form-control" id="firstNameFather" placeholder="Ім'я" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+                    <div class="invalid-feedback">Обов’язкове поле</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="middleNameFather" placeholder="По батькові" required pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ'’\-]+">
+                    <div class="invalid-feedback">Обов’язкове поле</div>
                   </div>
                   <div class="col-12">
                     <label for="phone" class="form-label">Мобільний телефон батька</label>
                     <div class="input-group has-validation">
-                        <span class="input-group-text">+38</span>
-                        <input type="text" class="form-control" id="phoneFather" placeholder="Номер телефону" required maxlength="10" required pattern="\d+">
-                        <div class="invalid-feedback">
-                            
-                        </div>
+                      <span class="input-group-text">+38</span>
+                      <input type="text" class="form-control" id="phoneFather" placeholder="Номер телефону" required maxlength="10" pattern="\d+">
+                      <div class="invalid-feedback"></div>
                     </div>
+                  </div>
                 </div>
-            
-
-          <hr class="my-4">
-
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Подати заявку</button>
-        </form>
+              </div>
+    
+              <hr class="my-4">
+              <button class="w-100 btn btn-primary btn-lg mt-3" type="submit">Подати заявку</button>          
+            </div>
+          </form>
+        </main>
       </div>
+  
+      <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+        <p class="mb-1">&copy; 2019–2024 Камянський енергетичний фаховий коледж</p>
+      </footer>
     </div>
-  </main>
-
-  <footer class="my-5 pt-5 text-body-secondary text-center text-small">
-    <p class="mb-1">&copy; 2019–2024 Кам`янський енергетичний фаховий коледж</p>
-    <!-- <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
-    </ul> -->
-  </footer>
-</div>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="checkout.js"></script></body>
+  
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="checkout.js"></script>
+  </body>
 </html>
